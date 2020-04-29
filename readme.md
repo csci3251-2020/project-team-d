@@ -37,7 +37,7 @@ Update the web page: `https://csci3251-2020.github.io/project-team-d` by doing t
 ##### `Task 8` 
 Promote the team repo by first including the last updated time of the repo using `site.time`.
 Then go to the public repo of **`csci3251-2020.github.io`** in the CSCI3251-2020 organization. 
-Edit the file to add a link of the team and request for review from **@chuckjee**
+Finally, edit the file to add a link of the team and request for review from **@chuckjee**.
 
 ## Code
 ## Contributors
