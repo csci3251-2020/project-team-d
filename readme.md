@@ -41,3 +41,9 @@ Finally, edit the file to add a link of the team and request for review from **@
 
 ## Code
 ## Contributors
+{% for stus in site.stu %}
+<div>
+  <p> >>{{ stus.image }}@{{stus.user}} ( {{ stus.name }})</p>
+  <p>>>{{ stus.content | markdownify }}</p>
+</div>
+{% endfor %}
