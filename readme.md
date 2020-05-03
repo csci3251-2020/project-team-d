@@ -1,3 +1,6 @@
+---
+layout : post
+---
 ## Introduction
 Our Team will do the following:  
 
