@@ -41,7 +41,7 @@ Finally, edit the file to add a link of the team and request for review from **@
 
 ## Code
 ## Contributors
-{% for stu in site.stu %}
+{% for stu in https://github.com/csci3251-2020/project-team-d/tree/precilali-patch-3.stu %}
 <div style= "border-radius: 25px;
   border: 2px solid white;text-align:center;margin:20px">
   <img src="{{stu.image}}" style="align=20px">
