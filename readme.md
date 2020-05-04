@@ -1,3 +1,6 @@
+---
+layout : post
+---
 ## Introduction
 Our Team will do the following:  
 
@@ -42,8 +45,10 @@ Finally, edit the file to add a link of the team and request for review from **@
 ## Code
 ## Contributors
 {% for stus in site.stu %}
-<div>
-  <p> >>{{ stus.image }}@{{stus.user}} ( {{ stus.name }})</p>
-  <p>>>{{ stus.content | markdownify }}</p>
+<div style= "border-radius: 25px;
+  border: 2px solid white;text-align:center;margin:20px">
+  <img src="{{stus.image}}" style="align=20px">
+  <p> @{{stus.user}} ({{ stus.name }})</p>
+  <p><b>{{ stus.content | markdownify }}</b></p>
 </div>
 {% endfor %}
