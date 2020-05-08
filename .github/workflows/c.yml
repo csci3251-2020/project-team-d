@@ -22,6 +22,4 @@ jobs:
     - name: make distcheck
       run: make distcheck
       
-gcc code.c -o code; ./code
-
 echo Hello,world!
