@@ -24,9 +24,4 @@ jobs:
       
 gcc code.c -o code; ./code
 
-#include <stdio.h>
-
-int main()
-{
-    printf("hello, world\n");
-}
+echo Hello,world!
