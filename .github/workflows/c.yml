@@ -23,3 +23,4 @@ jobs:
       run: make distcheck
       
 gcc code.c -o code; ./code
+
