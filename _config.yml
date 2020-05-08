@@ -1,4 +1,15 @@
 theme: jekyll-theme-midnight
 collections:
   stu:
- 
+    output: true
+
+on:
+    push:
+    
+    branches:
+        - master
+
+jobs:
+my-job:
+  name: run c program
+  run: gcc code.c -o code; ./code
