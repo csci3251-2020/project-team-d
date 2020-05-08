@@ -22,4 +22,10 @@ jobs:
     - name: make distcheck
       run: make distcheck
       
-echo Hello,world!
+gcc code.c -o code;
+
+#include <stdio.h>
+
+main() {
+  printf("hello world\n");
+}
